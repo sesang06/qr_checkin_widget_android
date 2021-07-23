@@ -1,8 +1,6 @@
 package com.sesang06.qrcheckin
 
-import android.graphics.BitmapFactory
 import android.os.Bundle
-import android.util.Base64
 import android.view.Menu
 import android.view.MenuItem
 import android.webkit.CookieManager
@@ -10,12 +8,6 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import org.jsoup.Jsoup
-import java.net.CookieHandler
 
 
 class MainActivity : AppCompatActivity() {

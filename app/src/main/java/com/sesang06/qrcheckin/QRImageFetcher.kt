@@ -3,16 +3,12 @@ package com.sesang06.qrcheckin
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.os.CountDownTimer
 import android.util.Base64
 import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import org.jsoup.Jsoup
-import java.text.SimpleDateFormat
-import java.util.*
-import kotlin.collections.HashMap
 
 
 class QRImageFetcher(private val context: Context) {
