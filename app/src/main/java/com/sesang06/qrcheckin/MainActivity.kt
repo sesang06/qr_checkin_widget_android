@@ -30,8 +30,9 @@ class MainActivity : AppCompatActivity() {
 
         val setting = webview.settings
         setting.javaScriptEnabled = true
-        setting.setJavaScriptEnabled(true); // 웹페이지 자바스클비트 허용 여부
-        setting.setSupportMultipleWindows(false); // 새창 띄우기 허용 여부
+        setting.setSupportMultipleWindows(false)
+        setting.javaScriptCanOpenWindowsAutomatically = false
+        setting.loadWithOverviewMode = true
         setting.setJavaScriptCanOpenWindowsAutomatically(false); // 자바스크립트 새창 띄우기(멀티뷰) 허용 여부
         setting.setLoadWithOverviewMode(true); // 메타태그 허용 여부
         setting.setUseWideViewPort(true); // 화면 사이즈 맞추기 허용 여부
